@@ -1,0 +1,81 @@
+.services {
+  width: 100%;
+  padding: 0 4em;
+  padding-top: 4em;
+  font-family: var(--ff-2);
+  font-size: var(--fs-ms);
+}
+
+.services h2 {
+  font-weight: 500;
+  max-width: 15ch;
+}
+
+.services .card_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.services .card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+
+  padding: 2em 2em;
+  img {
+    width: 2em;
+    height: 2em;
+    padding: 0.5em;
+    border-radius: 10px;
+
+    box-sizing: content-box;
+  }
+  &:nth-child(1) img {
+    background: var(--clr-blue);
+  }
+  &:nth-child(2) img {
+    background: var(--clr-green);
+  }
+  &:nth-child(3) img {
+    background: var(--clr-red);
+  }
+
+  small {
+    color: var(--clr-gray-2);
+    max-width: 25ch;
+  }
+  button {
+    background: var(--clr-gray-6);
+    color: var(--clr-gray-2);
+    width: fit-content;
+    font-size: var(--fs-s);
+  }
+}
+
+.services .card:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+  border-radius: 20px;
+  cursor: pointer;
+
+  button {
+    background: var(--clr-blue);
+    color: var(--clr-white);
+  }
+}
+
+@include breakpoint-down(tablet) {
+  .services {
+    padding: 4em 1em;
+    font-size: calc(var(--fs-s) + 0.1em);
+  }
+  .services .card_wrapper {
+    flex-direction: column;
+  }
+  .services .card {
+    small {
+      max-width: 100%;
+    }
+  }
+}

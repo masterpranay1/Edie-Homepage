@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+
+  /* Font Family's */
+  --ff-1 : 'Heebo', sans-serif;
+  --ff-2 : 'Poppins', sans-serif;
+
+  /* colors */
+  --clr-gray-1 : #333333;
+  --clr-gray-2 : #4F4F4F;
+  --clr-gray-3 : #828282;
+  --clr-gray-6 : #F2F2F2;
+  --clr-footer : #100E1D;
+  --clr-blue : #2D9CDB;
+  --clr-green : #27AE60;
+  --clr-red : #EB5757;
+  --clr-black : #000;
+  --clr-white: #fff;
+  --clr-shadow: rgba(0, 0, 0, .1);
+
+  /* font size */
+  --fs-xl : 3em;
+  --fs-mxl: 2.5em;
+  --fs-l : 2em;
+  --fs-mm : 1.8em;
+  --fs-m : 1.5em;
+  --fs-ms : 1.2em;
+  --fs-s : 1em;
+  --fs-xs : 0.8em;
+}

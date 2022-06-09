@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  background: white;
+}
+
+input, button {
+  all: unset;
+}
+
+button, .button {
+  font-size: var(--fs-ms);
+  background: var(--clr-blue);
+  color: var(--clr-white);
+
+  padding: 0.5em 1em;
+
+  border: 1px solid transparent;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+button:hover, .button:hover {
+  border: 1px solid var(--clr-blue);
+}
