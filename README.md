@@ -1,92 +1,45 @@
-<!-- Please update value in the {}  -->
+<h1 align="center"> Edie Homepage</h1>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/58875281/172903789-91dd8581-89eb-4fee-af80-44478780f29f.svg">
+</p>
 
-<h1 align="center">{Your project name}</h1>
+This Landing Page is designed in SCSS for the [Devchallenges.io](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) challenge in the Responsive Web Developer Track. 
 
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
+Live Link : [Click Here](https://masterpranay1.github.io/Edie-Homepage)
 
-<div align="center">
-  <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">
-      Challenge
-    </a>
-  </h3>
-</div>
+## Built With ⚙️
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
-
-## Overview
-
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
-### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- Html5
+- SASS 
+   - Mixins
+   - Variables
+   - Loops
+   - Nesting
+   - Partials : Separated Different parts of Landing Page and worked like indivisual Components
+- Javascript : Just for Hamburger Navbar
 
 ## Features
+- Responsive 
+- Mobile Navbar
+- Sticky Header
+- Different Hover Effects : Tried some Heading Animations
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+## Screenshots
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the given user stories.
+- Desktop
 
-## How To Use
+![image](https://user-images.githubusercontent.com/58875281/172906103-aa8a9e67-0212-4912-b8c9-cf343c5d5e20.png)
+![image](https://user-images.githubusercontent.com/58875281/172906218-5ceeca1c-a8aa-443b-bcc5-112887553d4a.png)
+![image](https://user-images.githubusercontent.com/58875281/172906298-ad1caf67-e969-47e5-82d9-048ed6d39d53.png)
+![image](https://user-images.githubusercontent.com/58875281/172906342-8f0dc7de-1d0a-40f1-b785-d00641bea82a.png)
 
-<!-- Example: -->
+- Mobile
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+![image](https://user-images.githubusercontent.com/58875281/172906888-dad824f9-3cf2-4587-b27b-3a07824eb708.png)
+![image](https://user-images.githubusercontent.com/58875281/172906991-6077a6e9-aa6f-4637-a2ee-e62cfd119336.png)
+![image](https://user-images.githubusercontent.com/58875281/172907316-5159becd-f30c-4a17-90f3-c116cfe9660c.png)
+![image](https://user-images.githubusercontent.com/58875281/172907438-b675b0d8-7d3c-4621-a24a-5db2a32d9fcc.png)
 
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-
-## Contact
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+## Author 
+Loved This Project. Let's Connect.
+- Linkedin : [@masterpranay](https://linkedin.com/in/masterpranay)
